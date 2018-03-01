@@ -209,7 +209,6 @@ string input = Microsoft.VisualBasic.Interaction.InputBox(requisicaoParametros.M
 <h3>Exibir Dados Operacao Aprovada</h3>
 
 ```javascript
-
 Private Sub ExibirDadosOperacaoAprovada(resposta As IRespostaOperacaoAprovada)
 
         Dim mensagemAprovada As New StringBuilder()
@@ -229,6 +228,7 @@ Private Sub ExibirDadosOperacaoAprovada(resposta As IRespostaOperacaoAprovada)
         AtualizarResultado(mensagemAprovada.ToString())
 
     End Sub
+
 ```
 
 <h3>Finalizar Pagamento</h3>
