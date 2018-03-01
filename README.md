@@ -208,7 +208,7 @@ string input = Microsoft.VisualBasic.Interaction.InputBox(requisicaoParametros.M
 ```
 <h3>Exibir Dados Operacao Aprovada</h3>
 
-Obs: no local de barra subistitua por "\"
+Obs: no local de barra subistitua por ("\")
 
 ```javascript
 Private Sub ExibirDadosOperacaoAprovada(resposta As IRespostaOperacaoAprovada)
