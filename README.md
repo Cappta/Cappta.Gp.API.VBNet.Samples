@@ -214,7 +214,7 @@ Private Sub ExibirDadosOperacaoAprovada(resposta As IRespostaOperacaoAprovada)
         Dim mensagemAprovada As New StringBuilder()
 
         If String.IsNullOrEmpty(resposta.CupomCliente) = False Then
-            mensagemAprovada.AppendLine(resposta.CupomCliente.Replace(, String.Empty)).AppendLine().AppendLine()
+            mensagemAprovada.AppendLine(resposta.CupomCliente.Replace('\', String.Empty)).AppendLine().AppendLine()
         End If
 
         If String.IsNullOrEmpty(resposta.CupomLojista) = False Then
