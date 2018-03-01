@@ -208,10 +208,8 @@ string input = Microsoft.VisualBasic.Interaction.InputBox(requisicaoParametros.M
 ```
 <h3>Exibir Dados Operacao Aprovada</h3>
 
-Obs: no local de barra subistitua por ("\")
-
 ```javascript
-Obs: no local de barra subistitua por "\"
+
 Private Sub ExibirDadosOperacaoAprovada(resposta As IRespostaOperacaoAprovada)
 
         Dim mensagemAprovada As New StringBuilder()
@@ -231,7 +229,7 @@ Private Sub ExibirDadosOperacaoAprovada(resposta As IRespostaOperacaoAprovada)
         AtualizarResultado(mensagemAprovada.ToString())
 
     End Sub
-
+Obs: no local de barra subistitua por "\"
 ```
 
 <h3>Finalizar Pagamento</h3>
