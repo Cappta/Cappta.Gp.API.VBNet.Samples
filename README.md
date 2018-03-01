@@ -208,21 +208,23 @@ string input = Microsoft.VisualBasic.Interaction.InputBox(requisicaoParametros.M
 ```
 <h3>Exibir Dados Operacao Aprovada</h3>
 
+Obs: no local de barra subistitua por "\"
+
 ```javascript
 Private Sub ExibirDadosOperacaoAprovada(resposta As IRespostaOperacaoAprovada)
 
         Dim mensagemAprovada As New StringBuilder()
 
         If String.IsNullOrEmpty(resposta.CupomCliente) = False Then
-            mensagemAprovada.AppendLine(resposta.CupomCliente.Replace('\', String.Empty)).AppendLine().AppendLine()
+            mensagemAprovada.AppendLine(resposta.CupomCliente.Replace(\, String.Empty)).AppendLine().AppendLine()
         End If
 
         If String.IsNullOrEmpty(resposta.CupomLojista) = False Then
-            mensagemAprovada.Append(resposta.CupomLojista.Replace("\", String.Empty)).AppendLine()
+            mensagemAprovada.Append(resposta.CupomLojista.Replace(\, String.Empty)).AppendLine()
         End If
 
         If String.IsNullOrEmpty(resposta.CupomReduzido) = False Then
-            mensagemAprovada.Append(resposta.CupomReduzido.Replace("\", String.Empty)).AppendLine()
+            mensagemAprovada.Append(resposta.CupomReduzido.Replace(\, String.Empty)).AppendLine()
         End If
 
         AtualizarResultado(mensagemAprovada.ToString())
