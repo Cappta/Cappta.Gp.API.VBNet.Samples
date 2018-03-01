@@ -211,6 +211,7 @@ string input = Microsoft.VisualBasic.Interaction.InputBox(requisicaoParametros.M
 Obs: no local de barra subistitua por ("\")
 
 ```javascript
+Obs: no local de barra subistitua por "\"
 Private Sub ExibirDadosOperacaoAprovada(resposta As IRespostaOperacaoAprovada)
 
         Dim mensagemAprovada As New StringBuilder()
