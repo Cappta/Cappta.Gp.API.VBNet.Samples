@@ -72,6 +72,7 @@ Public Class FormularioSampleVB
             InvalidarAutenticacao("PDV Inválido")
         End If
         resultadoDaAutenticacao = cliente.AutenticarPdv(cnpj, pdv, chaveAutenticacao)
+        resultadoDaAutenticacao = cliente.AutenticarPdv(cnpj, pdv, chaveAutenticacao)
         If resultadoDaAutenticacao = 0 Then
             Return
         End If
@@ -111,10 +112,6 @@ Public Class FormularioSampleVB
         End If
 
         Dim valor As Decimal = NumericUpDownValorPagamentoDebito.Value
-
-        If DeveIniciarMultiCartoes() Then
-            IniciarMulticartoes()
-        End If
 
         Dim resultado As Int32
         resultado = cliente.PagamentoDebito(valor)
@@ -453,8 +450,8 @@ Public Class FormularioSampleVB
     Private Sub ButtonSolicitarInformacaoPinpad_Click(sender As Object, e As EventArgs) Handles ButtonSolicitarInformacaoPinpad.Click
         Dim tipoDeEntrada = (ComboBoxTipoInformacaoPinpad.SelectedValue)
 
-        Dim requisicaoPinpad As IRequisicaoInformacaoPinpad
-        requisicaoPinpad = tipoDeEntrada
+        Dim requisicaoPinpad As IRequisicaoInformacaoPinpad = New RequisicaoInformacaoPinpad()
+        requisicaoPinpad.TipoInformacaoPinpad = tipoDeEntrada
 
         Dim informacaoPinpad = cliente.SolicitarInformacoesPinpad(requisicaoPinpad)
         AtualizarResultado(informacaoPinpad)
