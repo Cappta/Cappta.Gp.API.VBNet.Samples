@@ -1,0 +1,92 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Cappta.Gp.Api.Com.Sample.VB
+</name>
+</assembly>
+<members>
+<member name="T:Cappta.Gp.Api.Com.Sample.VB.My.Resources.Mensagens">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Cappta.Gp.Api.Com.Sample.VB.My.Resources.Mensagens.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Cappta.Gp.Api.Com.Sample.VB.My.Resources.Mensagens.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Cappta.Gp.Api.Com.Sample.VB.My.Resources.Mensagens.RESULTADO_CAPPTA_1">
+<summary>
+  Looks up a localized string similar to Não autorizado. Por favor, realize a autenticação para utilizar o CapptaGpPlus.
+</summary>
+</member>
+<member name="P:Cappta.Gp.Api.Com.Sample.VB.My.Resources.Mensagens.RESULTADO_CAPPTA_10">
+<summary>
+  Looks up a localized string similar to Uma reimpressão ou cancelamento foi executada dentro de uma sessão multi-cartões.
+</summary>
+</member>
+<member name="P:Cappta.Gp.Api.Com.Sample.VB.My.Resources.Mensagens.RESULTADO_CAPPTA_2">
+<summary>
+  Looks up a localized string similar to O CapptaGpPlus esta sendo inicializado, tente novamente em alguns instantes.
+</summary>
+</member>
+<member name="P:Cappta.Gp.Api.Com.Sample.VB.My.Resources.Mensagens.RESULTADO_CAPPTA_3">
+<summary>
+  Looks up a localized string similar to O formato da requisição recebida pelo CapptaGpPlus é inválido.
+</summary>
+</member>
+<member name="P:Cappta.Gp.Api.Com.Sample.VB.My.Resources.Mensagens.RESULTADO_CAPPTA_4">
+<summary>
+  Looks up a localized string similar to Operação cancelada pelo operador.
+</summary>
+</member>
+<member name="P:Cappta.Gp.Api.Com.Sample.VB.My.Resources.Mensagens.RESULTADO_CAPPTA_5">
+<summary>
+  Looks up a localized string similar to Pagamento não autorizado/pendente/não encontrado.
+</summary>
+</member>
+<member name="P:Cappta.Gp.Api.Com.Sample.VB.My.Resources.Mensagens.RESULTADO_CAPPTA_6">
+<summary>
+  Looks up a localized string similar to Pagamento ou cancelamento negados pela rede adquirente.
+</summary>
+</member>
+<member name="P:Cappta.Gp.Api.Com.Sample.VB.My.Resources.Mensagens.RESULTADO_CAPPTA_7">
+<summary>
+  Looks up a localized string similar to Ocorreu um erro interno no CapptaGpPlus.
+</summary>
+</member>
+<member name="P:Cappta.Gp.Api.Com.Sample.VB.My.Resources.Mensagens.RESULTADO_CAPPTA_8">
+<summary>
+  Looks up a localized string similar to Ocorreu um erro na comunicação entre a CappAPI e o CapptaGpPlus.
+</summary>
+</member>
+<member name="P:Cappta.Gp.Api.Com.Sample.VB.My.Resources.Mensagens.RESULTADO_CAPPTA_9">
+<summary>
+  Looks up a localized string similar to Não é possível realizar uma operação sem que se tenha finalizado o último pagamento.
+</summary>
+</member>
+<member name="T:Cappta.Gp.Api.Com.Sample.VB.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Cappta.Gp.Api.Com.Sample.VB.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Cappta.Gp.Api.Com.Sample.VB.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>
